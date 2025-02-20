@@ -47,21 +47,35 @@ All client-server communication uses UDP. All peer-to-peer (client-to-client) co
 *   The client and server can be run on the same host.
 *   No UDP packets will be lost, corrupted, or re-ordered in transit.
 
-## Example Interaction (from provided log)
+## Example Interaction
 client.py 63155
+
 168 09:16:34.185: 53966: Received HBT from yoda Enter username: vader
+
 169 09:16:34.259: 54347: Received AUTH from vader Enter password: sithlord**
+
 170 09:16:34.259: 54347: Sent OK to vader Welcome to BitTrickle!
+
 ...
 173 09:16:36.708: 54347: Received LPF from vader > lpf
+
 174 09:16:36.708: 54347: Sent OK to vader 3 files published:
+
 ...
+
 181 09:16:42.631: 53966: Received SCH from yoda > sch rfc
+
 182 09:16:42.631: 53966: Sent OK to yoda 1 file found:
+
 ...
+
 187 09:16:49.936: 53966: Received GET from yoda > get rfc768.txt
+
 188 09:16:49.936: 53966: Sent OK to yoda
 ...
+
 192 09:16:58.247: 53966: Received HBT from yoda > xit
+
 193 Goodbye! > xit
+
 194 Goodbye!
