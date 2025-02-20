@@ -50,13 +50,20 @@ All client-server communication uses UDP. All peer-to-peer (client-to-client) co
 ## Example Interaction
 client.py 63155
 
-168 09:16:34.185: 53966: Received HBT from yoda Enter username: vader
+168 09:16:34.185: 53966: Received HBT from yoda 
 
-169 09:16:34.259: 54347: Received AUTH from vader Enter password: sithlord**
+Enter username: vader
 
-170 09:16:34.259: 54347: Sent OK to vader Welcome to BitTrickle!
+169 09:16:34.259: 54347: Received AUTH from vader 
+
+Enter password: sithlord**
+
+170 09:16:34.259: 54347: Sent OK to vader 
+
+Welcome to BitTrickle!
 
 ...
+
 173 09:16:36.708: 54347: Received LPF from vader > lpf
 
 174 09:16:36.708: 54347: Sent OK to vader 3 files published:
